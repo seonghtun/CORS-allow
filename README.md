@@ -28,3 +28,5 @@ app.add_middleware(
 async def root():
     return {"message": "Hello World"}
 ```
+
+설명  페이지 : https://hanamon.kr/%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac-http-options-%eb%a9%94%ec%86%8c%eb%93%9c%eb%a5%bc-%ec%93%b0%eb%8a%94-%ec%9d%b4%ec%9c%a0%ec%99%80-cors%eb%9e%80/
