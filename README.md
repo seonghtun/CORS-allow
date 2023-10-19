@@ -5,7 +5,7 @@
 2. 검사 를 누름
 3. 네트워크(Network) 항목에서 요청한 데이터에 대한 Header를 보면 Request 와 Response Header들에 정보가 어떤지 볼수있다.
 
-`
+```
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -22,4 +22,4 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-`
+```
